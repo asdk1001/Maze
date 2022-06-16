@@ -69,6 +69,12 @@
     <Compile Include="Assets\Scripts\GreenDoor.cs" />
     <Compile Include="Assets\Scripts\GreenKey.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\StageScripts\DesertStageBuilder.cs" />
+    <Compile Include="Assets\Scripts\StageScripts\ForestStageBuilder.cs" />
+    <Compile Include="Assets\Scripts\StageScripts\InterfaceStageBuilder.cs" />
+    <Compile Include="Assets\Scripts\StageScripts\Stage.cs" />
+    <Compile Include="Assets\Scripts\StageScripts\StageBuilderUse.cs" />
+    <Compile Include="Assets\Scripts\StageScripts\StageCreator.cs" />
     <Compile Include="Assets\Scripts\SwitchButton.cs" />
     <Compile Include="Assets\Scripts\YellowDoor.cs" />
     <Reference Include="UnityEngine">
