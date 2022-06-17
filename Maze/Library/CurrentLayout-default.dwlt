@@ -70,10 +70,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 911, y: 542}
-  m_MaxSize: {x: 22006, y: 12042}
+  m_MinSize: {x: 911, y: 563}
+  m_MaxSize: {x: 22006, y: 12063}
   vertical: 1
-  controlID: 145
+  controlID: 168
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,10 +150,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-  m_MinSize: {x: 911, y: 542}
-  m_MaxSize: {x: 22006, y: 12042}
+  m_MinSize: {x: 911, y: 563}
+  m_MaxSize: {x: 22006, y: 12063}
   vertical: 0
-  controlID: 146
+  controlID: 169
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -197,10 +197,10 @@ MonoBehaviour:
     y: 0
     width: 1210
     height: 947
-  m_MinSize: {x: 201, y: 542}
-  m_MaxSize: {x: 4001, y: 12042}
+  m_MinSize: {x: 201, y: 563}
+  m_MaxSize: {x: 4001, y: 12063}
   vertical: 1
-  controlID: 147
+  controlID: 170
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -325,8 +325,8 @@ MonoBehaviour:
     y: 420
     width: 1210
     height: 375
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -415,7 +415,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f6b9ffff04d5ffff70fbffff443e00008e5a0000925a0000ac5a00006e5b0000
+      m_ExpandedIDs: 9c2bffffd236ffffd849ffffc04fffff1253ffff70fbffff743d0000923d0000a43d0000e03d0000003e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -431,7 +431,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 10}
+        m_ClientGUIView: {fileID: 9}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -516,7 +516,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/RPG Monster Duo PBR Polyart/Prefabs
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -530,7 +530,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: fa4b0000
     m_LastClickedID: 19450
-    m_ExpandedIDs: 00000000fc3f0000fe3f0000004000000240000004400000
+    m_ExpandedIDs: 0000000060400000624000006440000066400000684000006a400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -558,18 +558,18 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000fc3f000000400000044000001c4000009644000098440000
+    m_ExpandedIDs: ffffffff0000000060400000644000006840000086400000884000008a40000078440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: DestroyObject
-      m_OriginalName: DestroyObject
+      m_Name: PopUp
+      m_OriginalName: PopUp
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 30700
+      m_UserData: 27948
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -741,9 +741,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.9337088, y: 0.49226332, z: -0.5535004}
+    m_Target: {x: -0.30029938, y: 1.333192, z: -2.5078056}
     speed: 2
-    m_Value: {x: 1.9337088, y: 0.49226332, z: -0.5535004}
+    m_Value: {x: -0.30029938, y: 1.333192, z: -2.5078056}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -790,13 +790,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.29208037, y: 0.0028683126, z: -0.0008747488, w: 0.9564024}
+    m_Target: {x: 0.394852, y: -0.0027584317, z: 0.001181426, w: 0.91876596}
     speed: 2
-    m_Value: {x: 0.29207665, y: 0.002868276, z: -0.0008747376, w: 0.9563902}
+    m_Value: {x: 0.39346394, y: -0.0027601346, z: 0.0011772582, w: 0.9193351}
   m_Size:
-    m_Target: 5.628462
+    m_Target: 3.5570498
     speed: 2
-    m_Value: 5.628462
+    m_Value: 3.5570498
   m_Ortho:
     m_Target: 1
     speed: 2

@@ -53,6 +53,7 @@
     <UnityVersion>2020.3.27f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\Scripts\StageScripts\StageBuilderUse.cs" />
     <Compile Include="Assets\Scripts\SwitchButton.cs" />
     <Compile Include="Assets\Scripts\StageScripts\Stage.cs" />
@@ -66,7 +67,9 @@
     <Compile Include="Assets\Scripts\YellowDoor.cs" />
     <Compile Include="Assets\Scripts\GreenDoor.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
-    <Compile Include="Assets\Scripts\DestroyObject.cs" />
+    <Compile Include="Assets\Scripts\UndoScripts\Command.cs" />
+    <Compile Include="Assets\Scripts\End.cs" />
+    <Compile Include="Assets\Scripts\PopUp.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

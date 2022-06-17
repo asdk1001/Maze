@@ -15,7 +15,7 @@ public class GreenDoor : Door
                 isClosed = false;
 
                 this.gameObject.GetComponent<MeshRenderer>().enabled = isClosed;
-                this.gameObject.GetComponent<BoxCollider>().enabled = isClosed;
+                this.gameObject.GetComponent<MeshCollider>().enabled = isClosed;
             }
         }
     }

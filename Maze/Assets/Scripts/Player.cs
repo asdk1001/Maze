@@ -4,9 +4,23 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+
+
     private bool isGreenKey;
 
     public bool IsGreenKey { get => isGreenKey; set => isGreenKey = value; }
+
+    Stack<CommandKey> stack = new Stack<CommandKey>();
+
+    public void OnClickedUndoBtn()
+    {
+        if (stack.Count > 0)
+        {
+            CommandKey command = stack.Pop();
+            command.Undo();
+        }
+
+    }
 
     void Start()
     {
@@ -15,31 +29,32 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        float moveZ = 0f;
-
-        float moveX = 0f;
-
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.A))
         {
-            moveZ += 2f;
+            CommandKey command = new CommandLeftRight(this.gameObject);
+            stack.Push(command);
+            command.Excute(-1);
+            //BtnA.Excute(-1);
         }
-
-
-        if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKeyDown(KeyCode.D))
         {
-            moveZ -= 2f;
+            CommandKey command = new CommandLeftRight(this.gameObject);
+            stack.Push(command);
+            command.Excute(1);
+            //BtnA.Excute(1);
         }
-
-        if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKeyDown(KeyCode.W))
         {
-            moveX -= 2f;
+            CommandKey command = new CommandUpDown(this.gameObject);
+            stack.Push(command);
+            command.Excute(1);
+            //BtnB.Excute(1);
         }
-
-        if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKeyDown(KeyCode.S))
         {
-            moveX += 2f;
+            CommandKey command = new CommandUpDown(this.gameObject);
+            stack.Push(command);
+            command.Excute(-1);
         }
-
-        transform.Translate(new Vector3(moveX, 0f, moveZ) * 0.02f);
     }
 }

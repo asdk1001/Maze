@@ -6,7 +6,7 @@ public class SwitchButton : MonoBehaviour
 {
     public Door YelloDoor;
     public Door BlueDoor;
-    public Door GreenDoor;
+    //public Door GreenDoor;
 
     List<Door> doors = new List<Door>();
 
@@ -34,6 +34,6 @@ public class SwitchButton : MonoBehaviour
     {
         AddDoor(YelloDoor);
         AddDoor(BlueDoor);
-        AddDoor(GreenDoor);
+        //AddDoor(GreenDoor);
     }
 }

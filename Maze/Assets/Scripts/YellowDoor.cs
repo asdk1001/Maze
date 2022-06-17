@@ -9,7 +9,7 @@ public class YellowDoor : Door
         isClosed = !isClosed;
 
         this.gameObject.GetComponent<MeshRenderer>().enabled = isClosed;
-        this.gameObject.GetComponent<BoxCollider>().enabled = isClosed;
+        this.gameObject.GetComponent<MeshCollider>().enabled = isClosed;
     }
 
     void Start()
