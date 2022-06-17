@@ -21,23 +21,23 @@ public class Player : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            moveZ += 5f;
+            moveZ += 2f;
         }
 
 
         if (Input.GetKey(KeyCode.S))
         {
-            moveZ -= 5f;
+            moveZ -= 2f;
         }
 
         if (Input.GetKey(KeyCode.A))
         {
-            moveX -= 5f;
+            moveX -= 2f;
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            moveX += 5f;
+            moveX += 2f;
         }
 
         transform.Translate(new Vector3(moveX, 0f, moveZ) * 0.02f);

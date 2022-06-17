@@ -21,7 +21,7 @@ public class DesertStageBuilder : MonoBehaviour, IStageBuilder
     }
     public void SetTerrain()
     {
-        _stage.AddObject(terrain, Vector3.zero);
+        _stage.AddObject(terrain, new Vector3(0, -0.5f, 0));
     }
     public void SetObject()
     {
@@ -31,6 +31,6 @@ public class DesertStageBuilder : MonoBehaviour, IStageBuilder
     }
     public void SetMonster()
     {
-        _stage.AddObject(monster, new Vector3(0,0,-1.3f));
+        _stage.AddObject(monster, new Vector3(6f,0,-1.3f));
     }
 }

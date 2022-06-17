@@ -23,4 +23,4 @@ public class Stage : MonoBehaviour
         }
         Destroy(this.gameObject);
     }
-}
+}
